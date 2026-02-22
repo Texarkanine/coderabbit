@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+language: "en"
+
+early_access: false
+
+reviews:
+  path_filters:
+    - "!.cursor/rules/shared/**/*"
+    - "!.cursor/skills/shared/**/*"
+    - "!.cursor/commands/shared/**/*"
+    - "!.claude/rules/shared/**/*"
+
