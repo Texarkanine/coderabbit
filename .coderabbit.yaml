@@ -13,5 +13,5 @@ reviews:
     - "memory-bank/archive/**/*"
   path_instructions:
     - path: "**/*.md"
-      instructions: Never mention violations of the following markdownlint rules: MD040, MD048. These rules are not universally-correct and should not even be in the linter; warning about them is a waste of time.
+      instructions: "Never mention violations of the following markdownlint rules: MD040, MD048. These rules are not universally-correct and should not even be in the linter; warning about them is a waste of time."
 
