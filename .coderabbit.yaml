@@ -5,6 +5,7 @@ early_access: false
 
 reviews:
   path_filters:
+    - "**/*"
     - "!.cursor/rules/shared/**/*"
     - "!.cursor/skills/shared/**/*"
     - "!.cursor/commands/shared/**/*"
